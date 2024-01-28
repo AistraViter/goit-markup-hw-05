@@ -89,7 +89,7 @@ button {
 }
 
 .nav-text {
-  color: #404bbf;
+  color: #2e2f42;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
@@ -101,7 +101,7 @@ button {
   position: relative;
 }
 
-.nav-text::after {
+.nav-text:hover::after {
   content: "";
   width: 100%;
   position: absolute;
@@ -142,7 +142,6 @@ button {
 /*1 Website Title Section*/
 
 .website-title-section {
-  max-width: 1440px;
   background-color: #2e2f42;
   background-image: linear-gradient(
       rgba(46, 47, 66, 0.7),
@@ -331,10 +330,15 @@ button {
 .portfolio-item {
   flex-basis: calc((100% - 48px) / 3);
   transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.portfolio-item:hover {
   box-shadow: 0px 1px 6px 0px rgba(46, 47, 66, 0.08),
     0px 1px 1px 0px rgba(46, 47, 66, 0.16),
     0px 2px 1px 0px rgba(46, 47, 66, 0.08);
+
 }
+
 
 .product-name-subitem {
   padding: 32px 16px;
@@ -505,6 +509,8 @@ button {
 }
 
 /* Modal Window */
+
+
 .modal-window-fixed {
   position: fixed;
   top: 0;
