@@ -535,6 +535,7 @@ button {
   top: 24px;
   right: 24px;
   width: 24px;
+  height: 24px; 
   border-radius: 50%;
   display: flex;
   justify-content: center;
@@ -570,12 +571,13 @@ button {
   margin-bottom: 8px;
 }
 
-
 .modal-window-label {
   color: #8e8f99;
   font-size: 12px;
-  line-height: 1.2;
+  line-height: 1.17;
   letter-spacing: 0.04em;
+  display: block;
+  margin-bottom: 4px; 
 }
 
 .modal-window-input {
@@ -590,6 +592,8 @@ button {
   font-size: 12px;
   line-height: 2;
   letter-spacing: 0.04em;
+  margin-bottom: 4px; 
+
 }
 
 .modal-window-textarea {
