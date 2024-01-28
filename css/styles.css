@@ -586,6 +586,12 @@ button {
 .input-form {
   margin-bottom: 8px;
 }
+.textarea-form{
+  margin-bottom: 16px;
+}
+.checkbox-form{
+  margin-bottom: 24px;
+}
 
 .input-label,
 .checkbox-label {
@@ -607,22 +613,27 @@ button {
   border: 1px solid rgba(46, 47, 66, 0.4);
   border-radius: 4px;
   padding-left: 16px;
-  color: #ffffff;
+  color: rgba(46, 47, 66, 0.4);
   font-family: inherit;
   font-size: 12px;
   line-height: 2;
   letter-spacing: 0.04em;
   margin-bottom: 4px;
-  padding-left: 38px;
   outline: transparent;
   transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .input-field {
   height: 40px;
+  padding-left: 38px;
+
 }
 .textarea-field {
   height: 120px;
+  line-height: 1.17;
+  padding: 8px 16px;
+  resize: none;  
+  
 }
 
 .input-field:focus,
@@ -643,8 +654,19 @@ button {
   fill: #4d5ae5;
 }
 
+.checkbox-span {
+  width: 16px;
+  height: 16px;
+  border: 1px solid rgba(46, 47, 66, 0.4); 
+  border-radius: 2px; 
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), border 250ms cubic-bezier(0.4, 0, 0.2, 1), fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  display: inline-flex;
+  align-items: center;
+  justify-content: center; 
+  fill: transparent;
+}
 
-.modal-window-policy {
+.privacy-policy {
   font-family: inherit;
   color: #4d5ae5;
   font-size: 12px;
