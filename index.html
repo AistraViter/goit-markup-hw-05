@@ -632,20 +632,31 @@
         <form>
           <div class="modal-window-divform">
             <label class="modal-window-label" for="user-name"> Name</label>
-            <input class="modal-window-input" type="text" name="user-name" />
+            <div class="modal-window-inputsvg">
+              <input id="user-name"class="modal-window-input" type="text" name="user-name" />
+            </div>
             <label class="modal-window-label" for="phone"> Phone </label>
-            <input class="modal-window-input" type="tel" name="phone" />
+            <div class="modal-window-inputsvg">
+              <input id="user-tel" class="modal-window-input" type="tel" name="phone" />
+            </div>
             <label class="modal-window-label" for="email"> E-mail </label>
-            <input class="modal-window-input" type="email" name="email" />
+            <div class="modal-window-inputsvg">
+              <input id="user-email"class="modal-window-input" type="email" name="email" />
+            </div>
             <label class="modal-window-label" for="comment"> Comment </label>
-            <textarea class="modal-window-textarea" name="comment"> </textarea>
-            <input class="modal-window-check" type="radio" name="acception" />
+            <div class="modal-window-inputsvg">
+              <textarea id="user-comment" class="modal-window-textarea" name="comment">
+              </textarea>
+            </div>
             <label class="modal-window-label" for="acception">
               I accept the terms and conditions of the
               <a href="./index.html" class="modal-window-policy">
                 Privacy Policy
               </a>
             </label>
+            <div class="modal-window-inputsvg">
+              <input class="modal-window-check" type="radio" name="acception" />
+            </div>
           </div>
         </form>
         <button type="button" class="button-order">Send</button>

@@ -579,6 +579,9 @@ button {
   display: block;
   margin-bottom: 4px; 
 }
+.modal-window-inputsvg {
+  position: relative;
+}
 
 .modal-window-input {
   width: 100%;
