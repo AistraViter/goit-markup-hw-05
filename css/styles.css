@@ -667,11 +667,11 @@ button {
   fill: transparent;
 }
 
-.checkbox-field:checked + .checkbox-label .checkbox-span {
+.checkbox-field:checked + .checkbox-span {
   background-color: #404bbf;
 }
 
-.checkbox-field:checked + .checkbox-label .checkbox-span + checkbox-label .checkbox-icon {
+.checkbox-field:checked  .checkbox-span + .checkbox-icon {
   border: none; 
   fill: #F4F4FD;
 }
