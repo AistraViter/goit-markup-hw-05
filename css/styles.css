@@ -667,7 +667,7 @@ button {
   fill: transparent;
 }
 
-.checkbox-field:checked + .checkbox-label {
+.checkbox-field:checked + .checkbox-label .checkbox-span {
   background-color: #404bbf;
 }
 
