@@ -667,9 +667,9 @@ button {
   fill: transparent;
 }
 
-.checkbox-field:checked + .checkbox-span {
+/*.checkbox-field:checked + .checkbox-span {
   background-color: #404bbf;
-}
+}*/
 
 .checkbox-field:checked  .checkbox-span + .checkbox-icon {
   border: none; 
