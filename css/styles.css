@@ -670,7 +670,6 @@ button {
 
 
 .checkbox-field:checked + .checkbox-label span {
-  color: #404bbf;
   fill: #404bbf;
   border: none;
   background-color: #404bbf;
