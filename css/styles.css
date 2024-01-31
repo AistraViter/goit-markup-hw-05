@@ -670,15 +670,14 @@ button {
 
 
 .checkbox-field:checked + .checkbox-label span {
-  fill: #404bbf;
+ fill: #404bbf;
   border: none;
   background-color: #404bbf;
 }
 
-.checkbox-field:checked + .checkbox-label .checkbox-icon {
-  fill: #404bbf;
+.checkbox-field:checked + .checkbox-label .checkbox-span {
+  fill: var(--checkbox-checked-color, #F4F4FD);
 }
-
 
 
 .privacy-policy {
