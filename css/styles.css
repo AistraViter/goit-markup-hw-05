@@ -642,8 +642,7 @@ button {
 }
 
 .input-field:focus + .input-icon {
-  
-  fill: #4d5ae5;
+    fill: #4d5ae5;
 }
 
 
@@ -676,6 +675,12 @@ button {
   border: none;
   background-color: #404bbf;
 }
+
+.checkbox-field:checked + .checkbox-span {
+  border: none; 
+  fill: #F4F4FD;
+}
+
 
 
 .privacy-policy {
