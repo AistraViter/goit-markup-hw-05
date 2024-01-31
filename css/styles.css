@@ -675,9 +675,8 @@ button {
   background-color: #404bbf;
 }
 
-.checkbox-field:checked + .checkbox-span {
-  border: none; 
-  fill: #F4F4FD;
+.checkbox-field:checked + .checkbox-label svg {
+  fill: #404bbf;
 }
 
 
