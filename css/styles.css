@@ -656,17 +656,9 @@ button {
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.email-icon:focus-within {
-  fill: #4d5ae5;
-}
-
-.form-label:focus-within {
-  color: #2196f3;
-}
-
 
 .checkbox-span {
-  width: 16px;
+ width: 16px;
   height: 16px;
   border: 1px solid rgba(46, 47, 66, 0.4); 
   border-radius: 2px; 
@@ -677,15 +669,13 @@ button {
   fill: transparent;
 }
 
-.checkbox-field:checked {
+
+.checkbox-field:checked + .checkbox-label span {
+  color: #404bbf;
+  fill: #404bbf;
+  border: none;
   background-color: #404bbf;
 }
-
-.checkbox-field:checked + .checkbox-span {
-  border: none; 
-  fill: #F4F4FD;
-}
-
 
 
 .privacy-policy {
